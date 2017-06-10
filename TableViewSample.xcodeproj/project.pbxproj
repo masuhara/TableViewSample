@@ -12,6 +12,7 @@
 		7ABA84221EEC25E300E652CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABA84201EEC25E300E652CC /* Main.storyboard */; };
 		7ABA84241EEC25E300E652CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABA84231EEC25E300E652CC /* Assets.xcassets */; };
 		7ABA84271EEC25E300E652CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABA84251EEC25E300E652CC /* LaunchScreen.storyboard */; };
+		7AFA33521EEC3CC000B50813 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA33511EEC3CC000B50813 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7ABA84231EEC25E300E652CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ABA84261EEC25E300E652CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ABA84281EEC25E300E652CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFA33511EEC3CC000B50813 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				7ABA841C1EEC25E300E652CC /* AppDelegate.swift */,
 				7ABA841E1EEC25E300E652CC /* ViewController.swift */,
+				7AFA33511EEC3CC000B50813 /* DetailViewController.swift */,
 				7ABA84201EEC25E300E652CC /* Main.storyboard */,
 				7ABA84231EEC25E300E652CC /* Assets.xcassets */,
 				7ABA84251EEC25E300E652CC /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AFA33521EEC3CC000B50813 /* DetailViewController.swift in Sources */,
 				7ABA841F1EEC25E300E652CC /* ViewController.swift in Sources */,
 				7ABA841D1EEC25E300E652CC /* AppDelegate.swift in Sources */,
 			);
@@ -299,6 +303,7 @@
 				7ABA842D1EEC25E300E652CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
